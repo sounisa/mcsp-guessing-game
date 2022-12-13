@@ -16,9 +16,9 @@ function validation(input, othervalue){
     }
     }
         
-
-while (solved === false){
     var name = prompt("What's your name?")
+while (solved === false){
+    
     var enteredValue = prompt('Guess a number between 1 - 100')
     validation(enteredValue, number)
     str += enteredValue
